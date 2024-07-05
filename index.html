@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chessboard</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <style>
+        table{
+            height:400px;
+            width:400px;
+            border-collapse:collapse;
+            margin:auto;
+        }
+        .one{
+            font-size: xx-large;
+            align-items: center;
+            padding: 11px;
+        }
+        .w,.b{
+            height: 58px;
+            width: 65px;
+            border: 1px solid black;
+        }
+        .w{
+            background-color: aqua;
+        }
+        .b{
+            background-color: greenyellow;
+        }
+        .x{
+            font-size: 30px;
+            color: brown;
+        }
+        .y{
+            font-size: 30px;
+            color: black;
+        }
+    </style>
+</head>
+<body>
+    <h1 style="text-align: center;">Chess Board</h1>
+    <table>
+        <tr>
+            <th class="one"></th>
+            <th class="one">a</th>
+            <th class="one">b</th>
+            <th class="one">c</th>
+            <th class="one">d</th>
+            <th class="one">e</th>
+            <th class="one">f</th>
+            <th class="one">g</th>
+            <th class="one">h</th>
+        </tr>
+        <tr>
+            <th class="one">8</th>
+            <th class="w"><i class="fa-solid fa-chess-rook x"></i></th>
+            <th class="b"><i class="fa-solid fa-chess-knight x"></i></th>
+            <th class="w"><i class="fa-solid fa-chess-bishop x"></i></th>
+            <th class="b"><i class="fa-solid fa-chess-king x"></i></th>
+            <th class="w"><i class="fa-solid fa-chess-queen x"></i></th>
+            <th class="b"><i class="fa-solid fa-chess-bishop x"></i></th>
+            <th class="w"></i></th>
+            <th class="b"><i class="fa-solid fa-chess-rook x"></i></th>
+        </tr>
+        <tr>
+            <th class="one">7</th>
+            <th class="b"><i class="fa-solid fa-chess-pawn x"></i></th>
+            <th class="w"><i class="fa-solid fa-chess-pawn x"></i></th>
+            <th class="b"><i class="fa-solid fa-chess-pawn x"></i></th>
+            <th class="w"><i class="fa-solid fa-chess-pawn x"></i></th>
+            <th class="b"><i class="fa-solid fa-chess-pawn x"></i></th>
+            <th class="w"><i class="fa-solid fa-chess-pawn x"></i></th>
+            <th class="b"><i class="fa-solid fa-chess-pawn x"></i></th>
+            <th class="w"><i class="fa-solid fa-chess-pawn x"></i></th>
+        </tr>
+        <tr>
+            <th class="one">6</th>
+            <th class="w"></th>
+            <th class="b"></th>
+            <th class="w"></th>
+            <th class="b"></th>
+            <th class="w"></th>
+            <th class="b"></th>
+            <th class="w"></th>
+            <th class="b"></th>
+        </tr>
+        <tr>
+            <th class="one">5</th>
+            <th class="b"></th>
+            <th class="w"></th>
+            <th class="b"></th>
+            <th class="w"></th>
+            <th class="b"></th>
+            <th class="w"></th>
+            <th class="b"></th>
+            <th class="w"></th>
+        </tr>
+        <tr>
+            <th class="one">4</th>
+            <th class="w"></th>
+            <th class="b"></th>
+            <th class="w"></th>
+            <th class="b"></th>
+            <th class="w"></th>
+            <th class="b"></th>
+            <th class="w"></th>
+            <th class="b"></th>
+        </tr>
+        <tr>
+            <th class="one">3</th>
+            <th class="b"></th>
+            <th class="w"></th>
+            <th class="b"><i class="fa-solid fa-chess-pawn y"></i></th>
+            <th class="w"></th>
+            <th class="b"></th>
+            <th class="w"></th>
+            <th class="b"></th>
+            <th class="w"></th>
+        </tr>
+        <tr>
+            <th class="one">2</th>
+            <th class="w"><i class="fa-solid fa-chess-pawn y"></i></th>
+            <th class="b"><i class="fa-solid fa-chess-pawn y"></i></th>
+            <th class="w"><i class="fa-solid fa-chess-pawn y"></i></th>
+            <th class="b"><i class="fa-solid fa-chess-pawn y"></i></th>
+            <th class="w"><i class="fa-solid fa-chess-pawn y"></i></th>
+            <th class="b"></th>
+            <th class="w"><i class="fa-solid fa-chess-pawn y"></i></th>
+            <th class="b"><i class="fa-solid fa-chess-pawn y"></i></th>
+        </tr>
+        <tr>
+            <th class="one">1</th>
+            <th class="b"><i class="fa-solid fa-chess-rook y"></i></th>
+            <th class="w"><i class="fa-solid fa-chess-knight y"></i></th>
+            <th class="b"><i class="fa-solid fa-chess-bishop y"></i></th>
+            <th class="w"><i class="fa-solid fa-chess-queen y"></i></th>
+            <th class="b"><i class="fa-solid fa-chess-king y"></i></th>
+            <th class="w"><i class="fa-solid fa-chess-bishop y"></i></th>
+            <th class="b"><i class="fa-solid fa-chess-knight y"></i></th>
+            <th class="w"><i class="fa-solid fa-chess-rook y"></i></th>  
+        </tr>
+    </table>
+    
+</body>
+</html>
